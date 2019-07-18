@@ -1,0 +1,36 @@
+{
+  "name": "postcss-at-images",
+  "version": "1.0.0",
+  "description": "PostCSS plugin searches and adds high resolution background images",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "image",
+    "retina",
+    "high resolution",
+    "responsive"
+  ],
+  "author": "ilyoff <ilyoff@gmail.com>",
+  "license": "MIT",
+  "repository": "ilyoff/postcss-at-images",
+  "bugs": {
+    "url": "https://github.com/ilyoff/postcss-at-images/issues"
+  },
+  "homepage": "https://github.com/ilyoff/postcss-at-images",
+  "dependencies": {
+    "deepmerge": "^3.0.0",
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
